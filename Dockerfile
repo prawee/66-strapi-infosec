@@ -8,7 +8,8 @@ ENV NODE_ENV=${NODE_ENV}
 # set working directory
 WORKDIR /opt/
 # copy install file
-COPY ./package.json ./yarn.lock ./  
+# COPY ./package.json ./yarn.lock ./  
+COPY ./package.json ./
 # setup environment for path
 ENV PATH /opt/node_modules/.bin:$PATH
 # config global and install library for this project
