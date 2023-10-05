@@ -26,7 +26,7 @@
       "maxLength": 255
     },
     "mobile": {
-      "type": "integer",
+      "type": "string",
       "required": true,
       "unique": true,
       "min": 10,
