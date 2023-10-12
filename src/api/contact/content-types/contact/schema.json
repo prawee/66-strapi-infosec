@@ -34,7 +34,7 @@
       "private": true
     },
     "cardId": {
-      "type": "integer",
+      "type": "string",
       "required": true,
       "unique": true,
       "min": 13,
